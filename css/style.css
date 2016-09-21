@@ -1,0 +1,107 @@
+
+/*font-family: 'Libre Franklin', sans-serif;*/
+
+#contenidos{
+
+	width: auto;
+	height: auto;
+	margin: auto;
+	position: relative;
+	background: rgba(255, 255, 255, 0,5);
+}
+
+body{
+	background: url(../img/fondo.jpg) no-repeat center center fixed;	
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header{
+	width: 1000px;
+	height: 90px;
+	background: rgba(255, 255, 255, 0,5);
+}
+
+h2{
+	font-family: 'Libre Franklin', sans-serif;
+	padding-top: 20px;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	margin: auto;
+}
+
+nav{
+	height: 1px;
+	background-color: white;
+	text-align: center;
+}
+
+ul{
+	float:left;
+ 	left:50%;
+ 	list-style-type:none;
+ 	margin: auto;
+ 	padding:0px;
+ 	position: relative;
+}
+li{
+	float:left;
+ 	position:relative;
+ 	right:50%;
+	padding: 20px;
+}
+
+footer {
+	font-family: 'Libre Franklin', sans-serif;
+	bottom: 0;
+    position: fixed;
+    left: 3%;
+    width: 100%;
+}
+footer div {
+
+    margin-top: -4%;
+    color: white;
+}
+footer div section {
+    display: table-cell;
+    width: 100px;
+}
+footer div #Parrafo1, footer div #Parrafo2 {
+    padding-right: 10px;
+}
+    
+
+  ul#ejem li a{
+        position: relative;
+        color:white;
+        margin: 30px 5px;
+    }
+    ul#ejem li a:after{
+        position: absolute;
+        bottom: 10px;
+        left: 0px;
+        width: 100%;
+        height: 1px;
+        background-color: white;
+        content: "";
+        opacity: 0;
+        transition: opacity 1s ease 0s, transform 0.5s ease 0s;
+        transform: translateY(10px);        
+    }
+    ul#ejem li a:hover:after{
+        opacity:1;
+        transform: translateY(5px)
+    }
+
+/*clases*/
+.ancho_menu_home{width: :900px;}
+.ancho_menu_pagina{width: 970px;}
+
+.menu:link{padding: 7px; color: white; text-decoration: none;}
+.menu:visited{padding: 7px; color: white; text-decoration: none;}
+.menu:hover{padding: 7px; color: white; text-decoration: none;}
+.menu:active{padding: 7px; color: white; text-decoration: none;}
